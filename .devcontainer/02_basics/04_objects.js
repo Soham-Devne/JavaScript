@@ -61,4 +61,21 @@ const users = [
 //console.log(Object.values(user));
 //console.log(Object.entries(user));
 
-console.log(user.hasOwnProperty('isLogged'));
+//console.log(user.hasOwnProperty('isLogged'));
+
+
+const course = {
+    coursename:"JS in hindi",
+    price:999,
+    courseInstructor:"Hitesh",
+}
+
+const {courseInstructor:Instructor} = course;
+
+//console.log(Instructor);
+
+/*{
+    name:"Soham",
+    Instructor:"Hitesh",
+    price:999,
+}*/
